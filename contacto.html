@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <!-- CONEXIÓN DE HTML A CSS -->
+    <link rel="stylesheet" href="css/contacto.css" />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/taza-de-cafe.png" type="image/x-icon" />
+    <!-- LINK DE GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SCRIPT REDES FOOTER -->
+    <!-- FONTAWESOME -->
+    <script
+      src="https://kit.fontawesome.com/cbd153e571.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul id="lista-menu">
+          <li><a class="menu-principal" href="index.html">Inicio</a></li>
+          <li><a class="menu-principal" href="productos.html">Productos</a></li>
+          <li><a class="menu-principal" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="contactenos">
+        <div id="datos">
+          <div>
+            <h4>
+              <i class="fa-solid fa-location-dot"></i>Dirección:
+              <span>Corrientes 300</span>
+            </h4>
+          </div>
+          <div>
+            <h4>
+              <i class="fa-solid fa-phone"></i> Teléfono:
+              <span>1138658072</span>
+            </h4>
+          </div>
+          <div>
+            <h4>
+              <i class="fa-solid fa-envelope"></i>Email:
+              <span>urbancafe@gmail.com</span>
+            </h4>
+          </div>
+        </div>
+
+        <div id="mapayform">
+          <!-- IFRAME -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0375111860917!2d-58.373754424943684!3d-34.60321295747042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33532b8964961%3A0xd2428b7c4db5917d!2sAv.%20Corrientes%20300%2C%20C1043AAP%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1731713082313!5m2!1ses-419!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <form action=https://formspree.io/f/xzzbbnqb
+          method="post">
+            <label for="nombre"> Nombre completo</label>
+
+            <!-- PLACEHOLDER EN INPUT SE USA PARA PONER LA LETRA DE FONDO Y QUE DESAPAREZCA CUANDO ESCRIBO-->
+            <input id="edicion" type="text" name="nombre" id="nombre" />
+
+            <label for="direccion"> Correo electrónico</label>
+            <input id="edicion" type="text" name="direccion" id="direccion" />
+
+            <label for="codigo"> Teléfono (opcional) </label>
+            <input id="edicion" type="text" name="codigo" id="codigo" />
+
+            <label for="ciudad"> Ciudad</label>
+            <!-- AL AGREGARLE UN VALUE QUEDA FIJA LA CIUDAD-->
+            <input id="edicion" type="text" name="ciudad" id="ciudad" />
+
+            <!-- <label for="fechanacimiento">Fecha de nacimiento</label>
+                <input id="edicion" type="date" name="fechanacimiento" id="fechanacimiento"> -->
+
+            <!-- PARA ELEGIR LA OPCIÖN-->
+            <div id="genero">
+              <label for="genero">Preferencia de contacto</label>
+              <input class="genero1" type="radio" name="genero" value="h" />
+              Correo electrónico
+              <input class="genero1" type="radio" name="genero" value="m" />
+              Teléfono
+            </div>
+
+            <div id="genero">
+              <!-- PARA SELECCIONAR VARIAS OPCIONES-->
+              <label for="conocimientos">Tipo de consulta</label>
+              <input
+                class="genero1"
+                type="checkbox"
+                name="conocimientos"
+                value="p"
+              />
+              Dudas
+              <input
+                class="genero1"
+                type="checkbox"
+                name="conocimientos"
+                value="s"
+              />
+              Quejas
+              <input
+                class="genero1"
+                type="checkbox"
+                name="conocimientos"
+                value="t"
+              />
+              Reservaciones
+            </div>
+
+            <label for="comentarios">Consulta</label>
+            <textarea
+              name="comentarios"
+              id="comentarios"
+              cols="25"
+              rows="5"
+            ></textarea>
+
+            <!--BOTÖN-->
+            <input id="submit" type="submit" value="Enviar" />
+            <!--Botón de enviar-->
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <nav id="lista-menu2">
+        <!-- CREO UNA CLASE NAV PARA EDITAR TODOS MIS LINKS EN CSS (nav2)-->
+        <a class="link-menu" href="https://www.instagram.com/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a class="link-menu" href="https://www.facebook.com/" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a class="link-menu" href="https://www.twitter.com/" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a class="link-menu" href="https://ar.pinterest.com/" target="_blank"
+          ><i class="fa-brands fa-pinterest"></i
+        ></a>
+        <a
+          class="link-menu"
+          href="https://www.linkedin.com/home"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </nav>
+      <p id="parrafo-footer">© Desarrollado por María Paz Mario - 2024</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* para que no se desborde, se incluye el border, padding en la medida definida */
+    box-sizing: border-box;
+    /* ESTILO SACADO DE GOOGLE FONTS */
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color:rgb(254,255,255);
+}
+
+#lista-menu{
+    list-style: none;
+    font-size: larger;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 70px;
+    padding-top: 15px;
+}
+
+#lista-menu :hover {
+    color: rgb(234, 179, 63)
+}
+
+.menu-principal{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    padding: 15px;
+
+}
+
+#datos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+h4 i {
+    margin-right: 10px;
+}
+
+h4 {
+    font-weight:400;
+    font-size: 20px;
+}
+
+#mapayform{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+iframe{
+    padding-top: 5px;
+    width: 35%;
+}
+
+form{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+#genero{
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+
+.genero1{
+    margin-left: 10px;
+}
+
+
+textarea{
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#submit {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 200px;  
+    margin-right: 80px;  
+}
+
+#submit:hover {
+    background-color:rgb(234, 179, 63);
+
+}
+
+
+
+footer {
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.link-menu {
+    color: white;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.link-menu :hover {
+    color: grey;
+}
+
+#lista-menu2 {
+    font-size: 15px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+#parrafo-footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+

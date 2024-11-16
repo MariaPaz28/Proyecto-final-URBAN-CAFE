@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* para que no se desborde, se incluye el border, padding en la medida definida */
+    box-sizing: border-box;
+    /* ESTILO SACADO DE GOOGLE FONTS */
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color:rgb(254,255,255);
+}
+
+#lista-menu{
+    list-style: none;
+    font-size: larger;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 70px;
+    padding-top: 15px;
+}
+
+#lista-menu :hover {
+    color: rgb(234, 179, 63)
+}
+
+.menu-principal{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+
+}
+
+header {
+    /* imagen de fondo */
+    /* gradiente  */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url('../img/beautiful-kitchen-interior-design.jpg');
+    /* hace que la imagen de fondo cubra todo el área del fondo. */
+    background-size: cover;
+    /* centra la imagen de fondo */
+    background-position: center;
+    width: 220vh;
+    height: 90vh;
+}
+
+#titulo-1{
+    font-size: 12vh;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#parrafo-1 {
+    color: white;
+    text-align: center;
+    margin: 20px 150px;
+
+}
+
+#titulo-2, #sobrenosotros{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    color:rgb(234, 179, 63);
+}
+
+#parrafo-2{
+    margin: 0 165px;
+    text-align:justify;
+}
+
+#img1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#sobrenosotros1{
+    display: flex;
+}
+
+.titulo-3{
+    text-align: center;
+    font-weight: 700;
+}
+
+.parrafo-3{
+   text-align: justify;
+   margin-top: 30px;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
+#img-cafe{
+    margin-top: 15px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.link-menu {
+    color: white;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.link-menu :hover {
+    color: grey;
+}
+
+#lista-menu2 {
+    font-size: 15px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+#parrafo-footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
